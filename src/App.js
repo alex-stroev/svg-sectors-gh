@@ -106,11 +106,12 @@ function App() {
   const [opts, maxInitialRadius] = useMemo(() => createOptions(), [value]);
 
   return (
-    <div className={styles.app} onClick={() => setValue(value + 1)}>
+    <div className={styles.app}>
       <div className={styles.kernel}>
         <div
           className={styles.container}
           style={{ maxWidth: initialSize + "px" }}
+          onClick={() => setValue(value + 1)}
         >
           {svgSize > 0 && (
             <svg

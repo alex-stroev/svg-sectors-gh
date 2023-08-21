@@ -1,0 +1,16 @@
+.container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  td,
+  th {
+    padding: 1em;
+    border: 1px solid #eee;
+  }
+}

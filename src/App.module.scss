@@ -1,0 +1,19 @@
+.app {
+  min-height: 100vh;
+}
+.kernel {
+  margin: 0 auto;
+  box-sizing: content-box;
+  max-width: 1000px;
+  padding: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  svg {
+    margin: 0 auto;
+    box-sizing: content-box;
+    display: block;
+    margin: 0 auto;
+  }
+}

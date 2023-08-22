@@ -86,7 +86,6 @@ function App() {
     // Генерируем объект для paths
     ///////////////////////////////////////////////
     const opts = [];
-    const test = [];
 
     for (let i = 0; i < q; i++) {
       let opt = {};
@@ -96,10 +95,7 @@ function App() {
       opt.d.start_angle = angles[i];
       opt.d.end_angle = angles[i + 1];
       opts.push(opt);
-
-      test.push(((svgSize / 2) * initialRadiuses[i]) / maxInitialRadius);
     }
-
     return [opts, maxInitialRadius];
   };
 
